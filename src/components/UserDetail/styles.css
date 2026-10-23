@@ -1,0 +1,43 @@
+.userdetail-paper {
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #fff7fa;
+}
+
+.userdetail-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.userdetail-avatar {
+  background-color: #e91e63;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+}
+
+.userdetail-name {
+  color: #b0003a;
+  font-weight: 600;
+}
+
+.userdetail-divider {
+  margin: 16px 0;
+  border-color: #f8bbd0;
+}
+
+.userdetail-photosButton {
+  margin-top: 24px;
+}
+
+.userdetail-centered {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.userdetail-alert {
+  margin: 8px;
+}

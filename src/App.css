@@ -1,0 +1,17 @@
+body {
+  background-color: #fff0f5;
+}
+
+.app-container {
+  margin-top: 80px;
+  padding-bottom: 16px;
+}
+
+/* Both halves of the master-detail layout get the same height and scroll on
+   their own, so a long photo list never pushes the page around. */
+.app-panel {
+  height: calc(100vh - 100px);
+  padding: 12px;
+  overflow: hidden;
+  background-color: #fffafc;
+}

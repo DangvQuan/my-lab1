@@ -1,0 +1,27 @@
+.topbar-appBar {
+  height: 64px;
+  background-color: #e91e63;
+}
+
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.topbar-name {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.topbar-context {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.topbar-contextText {
+  font-weight: 500;
+}

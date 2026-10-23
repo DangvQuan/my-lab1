@@ -1,0 +1,33 @@
+.userlist-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.userlist-title {
+  color: #b0003a;
+  font-weight: 600;
+  padding: 4px 8px 12px;
+}
+
+.userlist-item {
+  border-radius: 8px;
+}
+
+.userlist-item.Mui-selected {
+  background-color: #ffd9e5;
+  color: #b0003a;
+}
+
+.userlist-item.Mui-selected:hover {
+  background-color: #ffc2d6;
+}
+
+.userlist-centered {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.userlist-alert {
+  margin: 8px;
+}

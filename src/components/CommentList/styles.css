@@ -1,0 +1,28 @@
+.comments-container {
+  margin-top: 8px;
+}
+
+.comments-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 0;
+}
+
+.comments-author {
+  font-weight: 600;
+  color: #e91e63;
+}
+
+.comments-text {
+  color: #3b2a30;
+}
+
+.comments-divider {
+  border-color: #fce4ec;
+}
+
+.comments-empty {
+  margin-top: 8px;
+  font-style: italic;
+}

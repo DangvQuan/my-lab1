@@ -1,0 +1,20 @@
+.userphotos-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.userphotos-title {
+  color: #b0003a;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.userphotos-centered {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.userphotos-alert {
+  margin: 8px;
+}
